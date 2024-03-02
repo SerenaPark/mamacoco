@@ -9,27 +9,13 @@ import matplotlib.dates as mdates
 import numpy as np
 import time
 
-# st.code("""
-# [theme]
-# primaryColor="#F39C12"
-# backgroundColor="#81F7D8"
-# # secondaryBackgroundColor="#AED6F1"
-# # textColor="#FFFFFF"
-# # font="monospace"
-# """)
 
 
-# if user_name != '':
-#   st.write(f'👋 안녕하세요 {user_name}님!')
-# else:
-#   st.write('👈  **이름**을 입력해 주세요!')
-
-# my_bar = st.progress(0)
-# for percent_complete in range(100):
-#      time.sleep(0.05)
-#      my_bar.progress(percent_complete + 1)
-
-# st.balloons()
+my_bar = st.progress(0)
+for percent_complete in range(100):
+     time.sleep(0.05)
+     my_bar.progress(percent_complete + 1)
+ st.balloons()
 
 # st.title('this is title')
 # st.header('this is header')
